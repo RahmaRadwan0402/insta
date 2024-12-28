@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Instagram</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <div class="d-flex " >
+      <!-- Sidebar -->
+      <div id="sidebar" class="bg-light p-3 " style="position: fixed; width: 250px; margin-left: 0;">
+        <h4 class="text-center mt-5 font-roboto  " id="instagram"><span>I</span><span>n</span><span>stagram</span> </h4>
+        <ul class="list-unstyled " >
+          <li class="mx-4 mt-5 fs-5 py-1" id="sidebarhover" >
+            <a href="#" class="text-dark text-decoration-none d-flex gap-2 align-items-center">
+              <i class="fas fa-home  fa-fade" ></i> Home
+            </a>
+          </li>
+          <li class="mx-4 mt-4 fs-5 py-1" id="sidebarhover">
+            <a href="#" class="text-dark text-decoration-none d-flex gap-2 align-items-center">
+              <i class="fa-solid fa-magnifying-glass fa-fade" ></i> Search
+            </a>
+          </li>
+          <li class="mx-4 mt-4 fs-5 py-1" id="sidebarhover">
+            <a href="#"class="text-dark text-decoration-none d-flex gap-2 align-items-center ">
+              <i class="fa-regular fa-compass fa-fade" ></i> Explore
+            </a>
+          </li>
+          <li class="mx-4 mt-4 fs-5 py-1" id="sidebarhover">
+            <a href="#" class="text-dark text-decoration-none d-flex gap-2 align-items-center">
+              <i class="fa-solid fa-film fa-fade" ></i> Reels
+            </a>
+          <li class="mx-4 mt-4 fs-5 py-1" id="sidebarhover">
+              <a href="#" class="text-dark text-decoration-none d-flex gap-2 align-items-center">
+                <i class="fa-regular fa-message fa-fade" ></i> Messages
+              </a>
+          <li class="mx-4 mt-4 fs-5 py-1" id="sidebarhover">
+                <a href="#" class="text-dark text-decoration-none d-flex gap-2 align-items-center">
+                  <i class="fa-regular fa-heart fa-fade" ></i> Notifications
+                </a>
+          <li class="mx-4 mt-4 fs-5 py-1" id="sidebarhover">
+                  <a href="#" class="text-dark text-decoration-none d-flex gap-2 align-items-center">
+                    <i class="fa-regular fa-square-plus fa-fade" ></i> Create
+                  </a>
+          <li class="mx-4 mt-4 fs-5 py-1" id="sidebarhover">
+                    <a href="#" class="text-dark text-decoration-none d-flex gap-2 align-items-center">
+                      <i class="fa-solid fa-bars fa-fade"></i> More
+                    </a>
+          </li>
+        </ul>
+      </div>
+    
+      <!-- Main Content -->
+      <div id="main-content" class="container-fluid p-4 ">
+         <nav class="navbar navbar- bg-body-tertiary fixed-top" style="margin-left: 260px;">
+      <div class="container-fluid">
+        <a class="navbar-brand"> <img src="./img/logo.webp" width="80px" alt="">Instagram</a>
+        <form class="d-flex input-group w-auto">
+          <input
+            type="search"
+            class="form-control rounded"
+            placeholder="Search"
+            aria-label="Search"
+            aria-describedby="search-addon"
+          />
+          <span class="input-group-text border-0" id="search-addon">
+            <i class="fas fa-search"></i>
+          </span>
+        </form>
+      </div>
+    </nav>
+    <!-----------------------end nav------------------------->
+    <div class="card mb-3 col-sm-12 container-fluid" style="max-width: 1450px; margin-left: 240px; margin-top: 38px;">
+      <div class="row g-0  ">
+        <div class="col-md-6 col-lg-4 container-fluid">
+          <img
+            src="./img/profile sub.jpg" width="200px" height="200px"
+            alt="Trendy Pants and Shoes"
+            class="m-5  rounded-circle"
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title d-flex  gap-3  col-lg-4 col-md-6 col-sm-12">gallery_special_antique_
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-mdb-ripple-init data-mdb-modal-init data-mdb-target="#exampleModal">
+               Follow
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title d-flex m-5 gap-4 align-items-center" id="exampleModalLabel"><img src="./img/profile sub.jpg" width="90px" height="90px" class="rounded-circle" alt="">gallery_special_antique_</h5>
+                      <button type="button" class="btn-close" data-mdb-ripple-init data-mdb-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body m-2">
+                      <h6 class="d-flex justify-content-between mt-3">Add to close friends list <i class="fa-solid fa-star"></i></h6>
+                      <h6 class="d-flex justify-content-between mt-3">Add to favorites <i class="fa-regular fa-star"></i></h6>
+                      <h6 class="d-flex justify-content-between mt-3">Mute<i class="fa-solid fa-angle-right"></i></h6>
+                      <h6 class="d-flex justify-content-between mt-3">Restrict<i class="fa-solid fa-angle-right"></i></h6>
+                      <h6 class="d-flex justify-content-between mt-3">Following</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-secondary">message</button>
+              <button class="btn btn-secondary"><i class="fa-solid fa-user-plus"></i></button>
+              <a data-mdb-ripple-init data-mdb-modal-init href="#exampleModalToggle1" role="button"><i class="fa-solid fa-ellipsis"></i></a>
+
+                <!-- First modal dialog -->
+                <div class="modal fade " id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel1" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <ul class="list-group list-group-light list-group-small d-flex align-items-center fs-6">
+                          <li class="list-group-item text-danger px-5 py-3">Block</li>
+                          <li class="list-group-item text-danger  px-5 py-3">Restrict</li>
+                          <li class="list-group-item text-danger px-5 py-3">Report</li>
+                          <li class="list-group-item px-5 py-3">Share to..</li>
+                          <li class="list-group-item px-5 py-3">About this account</li>
+                          <li class="list-group-item px-5 py-3">Cancel</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </h5>
+            <p class="card-text d-flex gap-5 mt-4 fs-5">
+              <span>24 posts</span>
+              <span>3,050 followers</span>
+              <span>11 following</span>
+            </p>
+            <p class="card-text">
+              <small class=" fs-5 ">أنتيكات أنتيكات<br>
+                أرقي الأنتيكات بأسعار غير اي حد🥰<br>
+                و في شحن محافظات🚚🚚</small>
+            </p>
+          </div>
+        </div>
+        <div class="  m-4 " data-mdb-interval="10000">
+          <img src="./img/tree.heic" class="rounded-circle shadow-5 mx-3" id="border"
+            style="width: 120px;" alt="Avatar" />
+          <img src="./img/access.webp" class="rounded-circle shadow-4 mx-3" id="border"
+            style="width: 120px;" alt="Avatar" />
+          <img src="./img/car.jpg" class="rounded-circle shadow-4 mx-3" id="border"
+            style="width: 120px; height: 120px;" alt="Avatar" />
+          <img src="./img/toha.heic" class="rounded-circle shadow-4 mx-3" id="border"
+            style="width: 120px; height: 120px;" alt="Avatar" />
+          <img src="./img/arosa.heic" class="rounded-circle shadow-4 mx-3" id="border"
+            style="width: 120px;" alt="Avatar" />
+          <img src="./img/antique.heic" class="rounded-circle shadow-4 mx-3" id="border"
+            style="width: 120px;" alt="Avatar" />
+        </div>
+      </div>
+    </div>
+   <!-- Tabs navs -->
+<div class="prt" style="margin-left: 240px;">   
+  <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a
+        data-mdb-tab-init
+        class="nav-link active d-flex gap-3 fs-6 mx-5 mt-5"
+        id="ex1-tab-1"
+        href="#ex1-tabs-1"
+        role="tab"
+        aria-controls="ex1-tabs-1"
+        aria-selected="true"
+        ><i class="fa-solid fa-table"></i>POSTS</a
+      >
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        data-mdb-tab-init
+        class="nav-link  d-flex gap-3 fs-6 mx-5 mt-5"
+        id="ex1-tab-2"
+        href="#ex1-tabs-2"
+        role="tab"
+        aria-controls="ex1-tabs-2"
+        aria-selected="false"
+        ><i class="fa-solid fa-film"></i>REELS</a
+      >
+    </li>
+    <li class="nav-item" role="presentation">
+      <a
+        data-mdb-tab-init
+        class="nav-link  d-flex gap-3 fs-6 mx-5 mt-5"
+        id="ex1-tab-3"
+        href="#ex1-tabs-3"
+        role="tab"
+        aria-controls="ex1-tabs-3"
+        aria-selected="false"
+        ><i class="fa-sharp fa-solid fa-user"></i>TAGGED</a
+      >
+    </li>
+  </ul>
+  <!-- Tabs navs -->
+  
+  <!-- Tabs content -->
+  <div class="tab-content" id="ex1-content">
+    <div
+      class="tab-pane fade show active"
+      id="ex1-tabs-1"
+      role="tabpanel"
+      aria-labelledby="ex1-tab-1"
+    >
+      <section  >
+        <div class="container ">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/6.webp " height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/1.heic" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/2.heic" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded ripple-surface">
+                <img src="./img/3.heic" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/4.jpg" height="420px" 
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/5.png" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/screen.jpg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/11.jpg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/22.webp" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded ripple-surface">
+                <img src="./img/33.jpg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/44.png" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/55.png" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/66.png" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/111.jpg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/222.jpg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded ripple-surface">
+                <img src="./img/333.jpg" height="420px"
+                  width="400px" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/444.jpeg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/555.jpg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/666.jpg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/1111.jpeg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/2222.webp" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded ripple-surface">
+                <img src="./img/3333.jpg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/4444.jpg" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="./img/5555.webp" height="420px"
+                  class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                  </div>
+                  <div class="hover-overlay">
+                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+      <section >
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+              <div class="card">
+                <div class="container">
+                  <div class="video-container">
+                    <video controls>
+                      <source src="./video/1.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card">
+                <div class="container">
+                  <div class="video-container">
+                    <video controls>
+                      <source src="./video/7.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card">
+                <div class="container">
+                  <div class="video-container">
+                    <video controls>
+                      <source src="./video/3.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+      <section >
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+              <div class="card">
+                <div class="container">
+                  <div class="video-container">
+                    <video controls>
+                      <source src="./video/tagged.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card">
+                <img src="./img/fossil.jpg" height="500px" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+              <div class="card">
+                <img src="./img/masbah.heic" height="500px" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- Tabs content -->
+    <!-- End your project here-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+    <script type="text/javascript" src="js/rahma.js"></script>
+
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
+
+
+
+
+      
+   
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
